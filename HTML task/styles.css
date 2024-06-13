@@ -1,0 +1,118 @@
+
+    td {
+        border: black 1px solid;
+    }
+#Socialmedia {
+    color: blue;
+}
+#Number {
+    color: blue;
+
+}
+#Number1 {
+    color: blue;
+   
+}
+
+.section-underscore {
+    text-decoration: underline;
+}
+#Body1 {
+    background-color: blanchedalmond;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+ 
+  
+}
+.border1 {
+    border: 2px solid black;
+    border-width: medium;
+    background-color: rgb(220, 200, 173);
+    padding-top: 10px;
+   margin: 5px;
+}
+.border2 {
+    border: 4px solid black;
+}
+.border3 {
+    border: 3px solid black;
+    color: black;
+    background-color: rgb(220, 200, 173);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+.gallery {
+    text-align: center;
+    color: #fff;
+}
+.container .img-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+
+.container .img-container .img {
+    width: 350px;
+    height: 250px;
+    border: 10px solid white;
+    overflow: hidden;
+
+}
+.container .img-container .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.container .img-container .img:hover img {
+    transform: scale(1.1);
+
+}
+.container .pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 0,.8);
+    display: none;
+}
+.container .pop-up img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #fff;
+    border-radius: 8px;
+    width: 700px;
+
+}
+.container .pop-up span {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
